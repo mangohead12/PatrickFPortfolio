@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+site_theme               : "air" # Currently available options are "default", "air"
+title                    : "Patrick Fong Project Portfolio"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
