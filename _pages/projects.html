@@ -9,14 +9,51 @@ show_excerpts: true       # optional
 
 {% include base_path %}
 
+{%- assign ordered   = site.projects | where_exp: "p","p.order" | sort: "order" -%}
+{%- assign unordered = site.projects | where_exp: "p","p.order == nil" | sort: "date" | reverse -%}
+
 <div class="grid__wrapper">
-  {%- assign ordered   = site.projects | where_exp: "p","p.order" | sort: "order" -%}
-  {%- assign unordered = site.projects | where_exp: "p","p.order == nil" | sort: "date" | reverse -%}
 
   {%- for post in ordered -%}
-    {% include archive-single.html type="grid" teaser=post.header.teaser %}
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {%- assign t = post.header.teaser | default: post.teaser | default: site.teaser -%}
+    {%- if t -%}
+    <div class="archive__item-teaser">
+      <img src="{{ t | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+    </div>
+    {%- endif -%}
+    <div class="archive__item-body">
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+      </h2>
+      {%- if post.excerpt -%}
+      <div class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt }}
+      </div>
+      {%- endif -%}
+    </div>
+  </article>
   {%- endfor -%}
+
   {%- for post in unordered -%}
-    {% include archive-single.html type="grid" teaser=post.header.teaser %}
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    {%- assign t = post.header.teaser | default: post.teaser | default: site.teaser -%}
+    {%- if t -%}
+    <div class="archive__item-teaser">
+      <img src="{{ t | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
+    </div>
+    {%- endif -%}
+    <div class="archive__item-body">
+      <h2 class="archive__item-title" itemprop="headline">
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+      </h2>
+      {%- if post.excerpt -%}
+      <div class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt }}
+      </div>
+      {%- endif -%}
+    </div>
+  </article>
   {%- endfor -%}
+
 </div>
