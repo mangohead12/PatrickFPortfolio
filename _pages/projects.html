@@ -3,20 +3,21 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
-entries_layout: grid      # <-- makes the cards render in a grid
-show_excerpts: true       # optional: show excerpt under each card
-classes: wide             # optional: wider content area
+entries_layout: grid      # optional but fine to keep
+show_excerpts: true       # optional
 ---
-
 
 {% include base_path %}
 
-{%- assign ordered   = site.projects | where_exp: "p","p.order" | sort: "order" -%}
-{%- assign unordered = site.projects | where_exp: "p","p.order == nil" | sort: "date" | reverse -%}
+<div class="grid__wrapper">
+  {%- assign ordered   = site.projects | where_exp: "p","p.order" | sort: "order" -%}
+  {%- assign unordered = site.projects | where_exp: "p","p.order == nil" | sort: "date" | reverse -%}
 
-{%- for post in ordered -%}
-  {% include archive-single.html %}
-{%- endfor -%}
-{%- for post in unordered -%}
-  {% include archive-single.html %}
-{%- endfor -%}
+  {%- for post in ordered -%}
+    {% include archive-single.html type="grid" %}
+  {%- endfor -%}
+
+  {%- for post in unordered -%}
+    {% include archive-single.html type="grid" %}
+  {%- endfor -%}
+</div>
