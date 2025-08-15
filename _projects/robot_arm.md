@@ -36,7 +36,7 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
 
 ---
 
-<details markdown="1">
+<details open markdown="1">
   <summary><strong>The Design</strong></summary>
 
 ## Design Goals
@@ -69,7 +69,7 @@ The end effector (quaternion wrist) uses servos for actuation and two vacuum mot
 
 ---
 
-<details markdown="1">
+<details open markdown="1">
   <summary><strong>Design Choices and Design Methods</strong></summary>
 
 ## Electronics
