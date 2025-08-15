@@ -197,7 +197,7 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-img_path = /images/
+img_path: /images/
 
 # Conversion
 markdown: kramdown
