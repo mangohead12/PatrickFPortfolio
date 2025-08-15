@@ -5,10 +5,21 @@ excerpt: "A custom cross functional robotic arm originally for a group project."
 header:
   image: images/robot-arm.png
   teaser: images/robot-arm.png
-
+teaser: images/robot-arm.png
 collection: projects
 ---
 
+
+<div class="video-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/hY593K-q6cw?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
+    title="Robot Arm Test!"
+    loading="lazy"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## Project: 6-DoF Robotic Arm
 The robot arm was a group project with four other students. 
@@ -24,17 +35,6 @@ The work described below is my contribution to the project in detail.
 As of now, the first three degrees of freedom (positioning) are complete, while the remaining three degrees (end-effector for orientation) are still in progress.
 
 ![The Robot Arm So Far!]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
-
-<div class="video-container">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/hY593K-q6cw?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
-    title="Robot Arm Test!"
-    loading="lazy"
-    frameborder="0"
-    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
 
 ---
 
