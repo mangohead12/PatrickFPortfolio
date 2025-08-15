@@ -16,7 +16,7 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
 
 ---
 
-<details>
+<details markdown="1">
   <summary><strong>The Design</strong></summary>
 
 ## Design Goals
