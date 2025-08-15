@@ -1,7 +1,9 @@
 ---
 title: "Robot Arm (WIP)"
 order: 1
-excerpt: "A custom cross functional robotic arm originally for a group project.<br/><img src='/images/robot-arm.png'>"
+excerpt: "A custom cross functional robotic arm originally for a group project."
+teaser: images/robot-arm.png
+
 collection: projects
 ---
 
