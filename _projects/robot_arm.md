@@ -5,8 +5,8 @@ collection: projects
 order: 1
 excerpt: "A custom cross functional robotic arm originally for a group project."
 header:
-  teaser: /images/robot-arm.png
-teaser: /images/robot-arm.png        # add this too for compatibility
+  teaser: robot-arm.png
+teaser: robot-arm.png        # add this too for compatibility
 ---
 
 
