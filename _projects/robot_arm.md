@@ -126,10 +126,10 @@ The carbon fiber tubes, aluminum round tubing, and bearings were purchased from 
 
 <div class="video-container">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/v=iHVmGTyaGT8?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
+    src="https://www.youtube-nocookie.com/embed/iHVmGTyaGT8?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
     title="CNCing!"
-    frameborder="0"
     loading="lazy"
+    frameborder="0"
     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
@@ -143,5 +143,15 @@ Through several rounds of testing, we found that the optimal design for holding 
 
 The current design is 3D printed using Flexible 80A resin on a Form 4 printer, though we also experimented with urethane casting during development.
 
+<div class="video-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/CAndtVpHk9o?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
+    title="Gripper Testing!"
+    loading="lazy"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
 
 </details>
