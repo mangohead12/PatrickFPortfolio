@@ -14,6 +14,18 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
 
 ![The Robot Arm So Far!](/assets/images/Robot-Arm1.png)
 
+<div class="video-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/v=hY593K-q6cw?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
+    title="Robot Arm Test!"
+    frameborder="0"
+    loading="lazy"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
 ---
 
 <details markdown="1">
@@ -52,11 +64,11 @@ The end effector (quaternion wrist) uses servos for actuation and two vacuum mot
   <summary><strong>Design Choices and Design Methods</strong></summary>
 
 ## Electronics
-Due to time constraints, many decisions were made quickly, and while effective, some may not have been optimal in hindsight.
+For the higher load subsystem we chose to use FRC motors and controllers because they are readily available, include a wide range of compatible components, and deliver substantial torque and speed without breaking the bank.
 
-We chose to use FRC motors and controllers because they are readily available, include a wide range of compatible components, and deliver substantial torque without the need for industrial-grade hardware.
+Additionally, the controllers had many built in features that reduced the work load for us such as built in CAN communication, current sensing and ROS compatability.
 
-We also opted for CAN communication to provide better flexibility in integration and control of the motor systems.
+For the end effector, we planned to use servos for the acuations and a small vacuum motor for gripping. Servos were selected since were wanted to reduce the workload by eliminated PID tuning and additional hardware.
 
 Here’s the rough schematic we followed for the electronics layout:
 
@@ -74,7 +86,13 @@ A 20% margin was added to the peak rpm then divided by the desired 60 rpm result
 
 $$
 Desired RPM = 60 RPM
+$$
+
+$$
 Peak Power RPM = 9370 RPM
+$$
+
+$$
 Gear Ratio = \frac{9370 RPM * 1.2}{60 RPM} = 187.4
 $$
 
@@ -82,18 +100,41 @@ This gear ratio was then applied to the motor’s theoretical output torque and 
 
 $$
 Desired Torque = 40 Nm
+$$
+
+$$
 Peak Power Torque = 0.3 Nm
+$$
+
+$$
 Estimated Output Torque = 0.3 Nm * 187.4 = 56.1 Nm
+$$
+
+$$
 Output > Desired
 $$
 
 All three joints of the arm uses the same size gearbox since they all have a torque requirement below the max output torque and can perform a 180 degree rotation under a second and have a torque requirement below the max output torque.
 
+![Side view of the arm gearbox](/assets/images/Robot-Arm3.png)
+
 ## Part Selection
-Many of the components for the robot were selected spontaneously based on availability and cost.
+In order to meet our deadline, we selected materials that were available and were compatible with the machinery we had access to. Some machinery we used included the HAAS TM-1 and some manual mills and lathes.
 
 The main structural aluminum was sourced from the remnant section at Industrial Metal Supply, where we found an 8-foot piece of 6x2-inch 6061 tubing for $40.
 The carbon fiber tubes, aluminum round tubing, and bearings were purchased from Amazon, chosen for their convenient sizes and affordability at the time.
+
+<div class="video-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/v=iHVmGTyaGT8?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
+    title="CNCing!"
+    frameborder="0"
+    loading="lazy"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
 
 ## Gripper Design
 We found limited resources on vacuum cup design, so we began by replicating common vacuum cups used in factory automation and iterated from there.
