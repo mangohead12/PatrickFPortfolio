@@ -10,7 +10,7 @@ collection: projects
 The robot arm was a group project with four other students. 
 The goal was to create a robotic arm with the goal of making mixed drink to order within a 8 week period. 
 I was responsible for mechanical design, fabrication, and electronics planning throughout the project.
-Some of my resposibilities included the follow:
+Some of my resposibilities included the following:
 - Estimate load conditions and calculate ideal gearing to ensure motor capability and electronics reliability
 - Model the robotic system in Fusion 360 considering performance requirements, fabrication limitations and material availability
 - Fabricated a 3 DoF robot arm prototype using a CNC mill and various 3D printers
