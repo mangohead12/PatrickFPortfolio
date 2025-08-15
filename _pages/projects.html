@@ -3,8 +3,8 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
-entries_layout: grid      # optional but fine to keep
-show_excerpts: true       # optional
+entries_layout: grid
+# show_excerpts: true   # optional
 ---
 
 {% include base_path %}
@@ -13,53 +13,10 @@ show_excerpts: true       # optional
 {%- assign unordered = site.projects | where_exp: "p","p.order == nil" | sort: "date" | reverse -%}
 
 <div class="grid__wrapper">
-
   {%- for post in ordered -%}
-  {%- assign t = post.header.teaser 
-      | default: post.teaser 
-      | default: post.header.image 
-      | default: post.image 
-      | default: site.teaser -%}
-  <!-- DEBUG: {{ post.title }} | header.teaser={{ post.header.teaser }} | teaser={{ post.teaser }} | header.image={{ post.header.image }} | image={{ post.image }} | resolved={{ t }} -->
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    {%- if t -%}
-    <div class="archive__item-teaser">
-      <img src="{{ t | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
-    </div>
-    {%- endif -%}
-    <div class="archive__item-body">
-      <h2 class="archive__item-title" itemprop="headline">
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-      </h2>
-      {%- if post.excerpt -%}
-      <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</div>
-      {%- endif -%}
-    </div>
-  </article>
+    {% include archive-single.html type="grid" %}
   {%- endfor -%}
-
   {%- for post in unordered -%}
-  {%- assign t = post.header.teaser 
-      | default: post.teaser 
-      | default: post.header.image 
-      | default: post.image 
-      | default: site.teaser -%}
-  <!-- DEBUG: {{ post.title }} | header.teaser={{ post.header.teaser }} | teaser={{ post.teaser }} | header.image={{ post.header.image }} | image={{ post.image }} | resolved={{ t }} -->
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    {%- if t -%}
-    <div class="archive__item-teaser">
-      <img src="{{ t | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
-    </div>
-    {%- endif -%}
-    <div class="archive__item-body">
-      <h2 class="archive__item-title" itemprop="headline">
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-      </h2>
-      {%- if post.excerpt -%}
-      <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</div>
-      {%- endif -%}
-    </div>
-  </article>
+    {% include archive-single.html type="grid" %}
   {%- endfor -%}
-
 </div>
