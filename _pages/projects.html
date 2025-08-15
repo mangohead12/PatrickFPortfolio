@@ -14,9 +14,9 @@ show_excerpts: true       # optional
   {%- assign unordered = site.projects | where_exp: "p","p.order == nil" | sort: "date" | reverse -%}
 
   {%- for post in ordered -%}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid" teaser=post.header.teaser %}
   {%- endfor -%}
   {%- for post in unordered -%}
-    {% include archive-single.html type="grid" %}
+    {% include archive-single.html type="grid" teaser=post.header.teaser %}
   {%- endfor -%}
 </div>
