@@ -12,7 +12,7 @@ I was responsible for mechanical design, fabrication, and electronics planning t
 
 As of now, the first three degrees of freedom (positioning) are complete, while the remaining three degrees (end-effector for orientation) are still in progress.
 
-![The Robot Arm So Far!](/assets/images/Robot-Arm.png)
+![The Robot Arm So Far!](/assets/images/Robot-Arm1.png)
 
 ---
 
@@ -20,7 +20,7 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
   <summary><strong>The Design</strong></summary>
 
 ## Design Goals
-The following were some goals that were determined before the design phase:
+The following were some goals that were determined during the ideation phase:
 - The robot shall be compatible with ROS2
 - The robot should be capable of moving from one end point to the other within one second
 - The robot should be capable of holding and moving a 2 pound payload at the end of the arm
@@ -29,14 +29,20 @@ The following were some goals that were determined before the design phase:
 - The robot shall be capable of holding 16oz of liquid and various small objects
 
 ## Subsystems
-
 The robot arm is divided into two subsystems:
--The positional: a 3DoF articulated arm
--The orientation subsystem: a quaternion wrist with an integrated vacuum cup gripper (WIP).
+-The arm: a 3DoF articulated arm.
+-The end effector: a quaternion wrist with an integrated vacuum cup gripper (WIP).
 
-The first 3 DoF uses FRC motors since the torque requirement is higher than the hobbyist motors I found online. All the motors and gearboxes are mounted towards the base to keep the arm segments light.
+## The Robot Arm
+The robot arm is a 3 DoF arm made of aluminum rectangular tubing for the structure and carbon fiber tubes for the arms.
+The first 3 DoF uses FRC motors since they could provide substantial torque while having a desirable speed. All the motors and gearboxes are mounted towards the base to keep the arm segments light.
 
+![Arm Subsystem](/assets/images/Robot-Arm2.png)
+
+## The End effector
 The end effector (quaternion wrist) uses servos for actuation and two vacuum motors to grasp objects like a mixing cup or ice.
+
+
 
 </details>
 
@@ -67,16 +73,21 @@ The reduction was calculated based on the goal of traveling from endpoint to end
 A 20% margin was added to the peak rpm then divided by the desired 60 rpm resulting in a 187:1 desired gear reduction. However, the final reduction was reduced to 120:1 to match the shortened arm lengths while maintaining ample torque.
 
 $$
-Gear Ratio = \frac{9370 * 1.2}{60} = 187.4
+Desired RPM = 60 RPM
+Peak Power RPM = 9370 RPM
+Gear Ratio = \frac{9370 RPM * 1.2}{60 RPM} = 187.4
 $$
 
 This gear ratio was then applied to the motor’s theoretical output torque and compared against the estimated requirement of ~20 Nm to confirm that it would meet performance needs.
 
 $$
-some equation
+Desired Torque = 40 Nm
+Peak Power Torque = 0.3 Nm
+Estimated Output Torque = 0.3 Nm * 187.4 = 56.1 Nm
+Output > Desired
 $$
 
-All three joints of the arm uses the same size gearbox since they all have a torque requirement below the max output torque and can perform a 180 degree rotation under a second.
+All three joints of the arm uses the same size gearbox since they all have a torque requirement below the max output torque and can perform a 180 degree rotation under a second and have a torque requirement below the max output torque.
 
 ## Part Selection
 Many of the components for the robot were selected spontaneously based on availability and cost.
