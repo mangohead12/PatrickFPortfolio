@@ -86,8 +86,8 @@ The estimated torque requirement was estimated using static analysis with the hi
 
 Since this was before the final design was complete, it was assumed that the payload would be around 2 kg with a torque arm of 1 meter.
 
-![FBD](/assets/images/FBD.png)
-![Rough Calculations](/assets/images/RoughCalcs.png)
+![FBD]({{ '/images/FBD.png' | relative_url }}){:.img-fluid}
+
 
 ## Gearbox Sizing
 Although the motors are fairly strong, a gearbox was necessary to achieve the desired output torque and protect upstream electronics from overload.
@@ -130,8 +130,8 @@ $$
 
 All three joints of the arm uses the same size gearbox since they all have a torque requirement below the max output torque and can perform a 180 degree rotation under a second and have a torque requirement below the max output torque.
 
-![Motor Curve]({{ '/images/Electronics-Schematic.png' | relative_url }}){:.img-fluid}
-![Side view of the arm gearbox]({{ '/images/Robot-Arm3.png' | relative_url }}){:.img-fluid}
+![Motor Curve]({{ '/images/motor curve.png' | relative_url }}){:.img-fluid}
+![Side view of the arm gearbox]({{ '/images/robot-arm3.png' | relative_url }}){:.img-fluid}
 
 ## Part Selection
 In order to meet our deadline, we selected materials that were available and were compatible with the machinery we had access to. Some machinery we used included the HAAS TM-1 and some manual mills and lathes.
