@@ -178,4 +178,5 @@ The current design is 3D printed using Flexible 80A resin on a Form 4 printer, t
 ![Alt 2]({{ '/images/pic2.png' | relative_url }})
 ![Alt 3]({{ '/images/pic3.png' | relative_url }})
 ![Alt 3]({{ '/images/pic4.PNG' | relative_url }})
+![Alt 3]({{ '/images/pic5.png' | relative_url }})
 </div>
