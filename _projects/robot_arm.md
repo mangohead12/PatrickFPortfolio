@@ -17,15 +17,14 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
 
 <div class="video-container">
   <iframe
-    src="https://www.youtube-nocookie.com/embed/v=hY593K-q6cw?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
+    src="https://www.youtube-nocookie.com/embed/hY593K-q6cw?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
     title="Robot Arm Test!"
-    frameborder="0"
     loading="lazy"
+    frameborder="0"
     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowfullscreen>
   </iframe>
 </div>
-
 
 ---
 
