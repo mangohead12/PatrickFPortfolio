@@ -7,7 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
+{%- assign ordered   = site.projects | where_exp: "p","p.order" | sort: "order" -%}
+{%- assign unordered = site.projects | where_exp: "p","p.order == nil" | sort: "date" | reverse -%}
 
-{% for post in site.projects %}
+{%- for post in ordered -%}
   {% include archive-single.html %}
-{% endfor %}
+{%- endfor -%}
+{%- for post in unordered -%}
+  {% include archive-single.html %}
+{%- endfor -%}
