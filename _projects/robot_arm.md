@@ -56,7 +56,7 @@ The robot arm is divided into two subsystems:
 The robot arm is a 3 DoF arm made of aluminum rectangular tubing for the structure and carbon fiber tubes for the arms.
 The first 3 DoF uses FRC motors since they could provide substantial torque while having a desirable speed. All the motors and gearboxes are mounted towards the base to keep the arm segments light.
 
-![Arm Subsystem]({{ '/images/Robot-Arm2.png' | relative_url }}){:.img-fluid}
+![Arm Subsystem]({{ '/images/robot-arm2.PNG' | relative_url }}){:.img-fluid}
 
 ## The End effector
 The end effector (quaternion wrist) uses servos for actuation and two vacuum motors to grasp objects like a mixing cup or ice.
@@ -130,7 +130,7 @@ $$
 
 All three joints of the arm uses the same size gearbox since they all have a torque requirement below the max output torque and can perform a 180 degree rotation under a second and have a torque requirement below the max output torque.
 
-![Motor Curve]({{ '/images/motor curve.png' | relative_url }}){:.img-fluid}
+![Motor Curve]({{ '/images/motor-curve.png' | relative_url }}){:.img-fluid}
 ![Side view of the arm gearbox]({{ '/images/robot-arm3.png' | relative_url }}){:.img-fluid}
 
 ## Part Selection
@@ -173,8 +173,8 @@ The current design is 3D printed using Flexible 80A resin on a Form 4 printer, t
 
 ## Photos
 <div class="masonry" markdown="1">
-![Alt 1]({{ '/images/pic1.jpg' | relative_url }})
-![Alt 2]({{ '/images/pic2.jpg' | relative_url }})
-![Alt 3]({{ '/images/pic3.jpg' | relative_url }})
-![Alt 3]({{ '/images/pic3.jpg' | relative_url }})
+![Alt 1]({{ '/images/pic1.png' | relative_url }})
+![Alt 2]({{ '/images/pic2.png' | relative_url }})
+![Alt 3]({{ '/images/pic3.png' | relative_url }})
+![Alt 3]({{ '/images/pic3.PNG' | relative_url }})
 </div>
