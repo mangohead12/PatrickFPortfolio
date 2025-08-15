@@ -1,7 +1,7 @@
 ---
 title: "Robot Arm (WIP)"
 order: 1
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "A custom cross functional robotic arm originally for a group project.<br/><img src='/images/robot-arm.png'>"
 collection: projects
 ---
 
