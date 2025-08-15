@@ -79,7 +79,7 @@ For the end effector, we planned to use servos for the acuations and a small vac
 
 Below is the rough schematic we followed for the electronics layout:
 
-![The Electronics Schematic!]({{ '/images/electronics-schematic.png' | relative_url }}){:.img-fluid}
+![The Electronics Schematic!]({{ '/images/electronics-schematic.PNG' | relative_url }}){:.img-fluid}
 
 ## Torque Estimation
 The estimated torque requirement was estimated using static analysis with the highest load estimated at around 40 Nm.
