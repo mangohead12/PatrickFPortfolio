@@ -5,6 +5,17 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/500
 collection: projects
 ---
 
+<div class="video-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
+    title="YouTube video"
+    loading="lazy"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
 ## Project: 6-DoF Robotic Arm
 The robot arm was a group project with four other students. 
 The goal was to create a robotic arm with the goal of making mixed drink to order within a 13 week period. 
