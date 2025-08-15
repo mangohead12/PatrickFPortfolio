@@ -19,7 +19,7 @@ The work described below is my contribution to the project in detail.
 
 As of now, the first three degrees of freedom (positioning) are complete, while the remaining three degrees (end-effector for orientation) are still in progress.
 
-![The Robot Arm So Far!]({{ '/images/Robot-Arm1.png' | relative_url }}){:.img-fluid}
+![The Robot Arm So Far!]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
 
 <div class="video-container">
   <iframe
