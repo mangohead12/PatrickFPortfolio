@@ -86,7 +86,7 @@ The estimated torque requirement was estimated using static analysis with the hi
 
 Since this was before the final design was complete, it was assumed that the payload would be around 2 kg with a torque arm of 1 meter.
 
-![FBD]({{ '/images/fbd.png' | relative_url }}){:.img-fluid}
+![FBD]({{ '/images/fbd.PNG' | relative_url }}){:.img-fluid}
 
 
 ## Gearbox Sizing
