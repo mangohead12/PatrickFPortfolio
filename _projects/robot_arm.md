@@ -42,7 +42,7 @@ The end effector (quaternion wrist) uses servos for actuation and two vacuum mot
 
 ---
 
-<details>
+<details markdown="1">
   <summary><strong>Design Choices and Design Methods</strong></summary>
 
 ## Electronics
