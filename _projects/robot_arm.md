@@ -71,7 +71,7 @@ The end effector (quaternion wrist) uses servos for actuation and two vacuum mot
   <summary><strong>Design Choices and Design Methods</strong></summary>
 
 ## Electronics
-For the higher load subsystem we chose to use FRC motors and controllers, nnamely the 775pro and TalonFXS, because they are readily available, include a wide range of compatible components, and deliver substantial torque and speed without breaking the bank.
+For the higher load subsystem we chose to use FRC motors and controllers, namely the 775pro and TalonFXS, because they are readily available, include a wide range of compatible components, and deliver substantial torque and speed without breaking the bank.
 
 Additionally, the controllers had many built in features that reduced the work load for us such as built in CAN communication, current sensing and ROS compatability.
 
@@ -172,7 +172,7 @@ The current design is 3D printed using Flexible 80A resin on a Form 4 printer, t
 
 </details>
 
-## Photos
+## Additonal Photos
 <div class="masonry" markdown="1">
 ![Alt 1]({{ '/images/pic1.png' | relative_url }})
 ![Alt 2]({{ '/images/pic2.png' | relative_url }})
