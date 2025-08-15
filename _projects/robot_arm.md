@@ -94,6 +94,8 @@ Although the motors are fairly strong, a gearbox was necessary to achieve the de
 
 Torque and RPM at peak power were used for sizing, based on the assumption that the motor would operate near this point under load.
 
+![Motor Curve]({{ '/images/motor-curve.png' | relative_url }}){:.img-fluid}
+
 The reduction was calculated based on the goal of traveling from endpoint to endpoint in under one second.
 
 A 20% margin was added to the peak rpm then divided by the desired 60 rpm resulting in a 187:1 desired gear reduction. However, the final reduction was reduced to 120:1 to match the shortened arm lengths while maintaining ample torque.
@@ -130,7 +132,6 @@ $$
 
 All three joints of the arm uses the same size gearbox since they all have a torque requirement below the max output torque and can perform a 180 degree rotation under a second and have a torque requirement below the max output torque.
 
-![Motor Curve]({{ '/images/motor-curve.png' | relative_url }}){:.img-fluid}
 ![Side view of the arm gearbox]({{ '/images/robot-arm3.png' | relative_url }}){:.img-fluid}
 
 ## Part Selection
