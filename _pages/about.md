@@ -35,3 +35,20 @@ This was my contribution as a researcher in the Robotics and Medical Systems Lab
 
 [See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
 
+### Rocket Tracker
+
+For the university's liquid rocketry club I developed a proof of concept rocket tracker to receive telemtery from the rocket throughout its flight. A few prototypes were created but was ultimately terminated to focus on preparing for rocket launch. 
+
+
+![Arm Subsystem]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
+
+[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
+
+### Straw Bridge Challenge
+
+The final project for Machine Design was a challenge to design, build and test straw bridges. Grades were based on load failure prediction and performance efficiency compared to the class average. My group ended up scoring the highest efficiency every in class history. Our success was attributed to several rounds of simulation to find the most efficient design in addition several iterations of prototyping to develop a reliable method of construction.
+
+
+![Arm Subsystem]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
+
+[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
