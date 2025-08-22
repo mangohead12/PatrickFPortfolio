@@ -25,8 +25,13 @@ This was my senior design project with five other students with the goal of deve
 
 ![Arm Subsystem]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
 
-[See Project](https://mangohead12.github.io/PatrickFPortfolio/projects/robot_arm/){: .btn .btn--primary .btn--custom }
+[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/robot_arm/){: .btn .btn--primary .btn--custom }
 
 ### Fruit Picker
-[Link text](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/)
+
+This was my contribution as a researcher in the Robotics and Medical Systems Lab (RaMS). My task was to develop an end effector for a continuum robot that would travel through tree branches to access hanging fruit from the interior of tree canopies. Once the continuum robot is in place the end effector will grasp the fruit, twist and pull to remove the fruit from the tree. 
+
+![Arm Subsystem]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
+
+[Link text](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
 
