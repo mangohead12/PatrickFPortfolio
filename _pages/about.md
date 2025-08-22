@@ -33,5 +33,5 @@ This was my contribution as a researcher in the Robotics and Medical Systems Lab
 
 ![Arm Subsystem]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
 
-[Link text](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
+[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
 
