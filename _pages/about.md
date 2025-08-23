@@ -15,7 +15,7 @@ I graduated from the University of California, Riverside with a BSME degree. In 
 
 As a student assitant in the mechanical engineering makerspace my responsibilities included fabricating parts to order, servicing equipment, leading operational and design for manufacturing workshops in addition to managing material inventory. As part of my training in the makerspace, I learned to use the equipment for my own projects such as a robot arm. Some of the machinery I worked with included desktop CNC routers, polyjet and multijet printers, waterjets and laser cutters. 
 
-![Arm Subsystem]({{ '/images/robot-arm2.PNG' | relative_url }}){:.img-fluid}
+![Some machines in the mechanical engineering makerspace]({{ '/images/MEDDL.PNG' | relative_url }}){:.img-fluid}
 
 Much of my experience revolves around mechanical design, mechaism design for robotics, rapid prototyping and fabrication. Below are some projects where I applied some of the skills I have picked up over the last few years. 
 
@@ -49,6 +49,6 @@ For the university's liquid rocketry club I developed a proof of concept rocket 
 The final project for Machine Design was a challenge to design, build and test straw bridges. Grades were based on load failure prediction and performance efficiency compared to the class average. My group ended up scoring the highest efficiency ever in class history with an efficiency of 732%. Our success was attributed performing several iterations of simulation to find the most effecient design while building several prototypes to ensure the best build quality.
 
 
-![Bridge]({{ '/images/bridge.png' | relative_url }}){:.img-fluid}
+![Bridge]({{ '/images/bridge.PNG' | relative_url }}){:.img-fluid}
 
 [See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
