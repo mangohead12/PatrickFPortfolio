@@ -24,7 +24,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshot.png"
   name             : "Patrick Fong"
   pronouns         : # example: "she/her"  
   bio              : "Mechanical Engineer"
