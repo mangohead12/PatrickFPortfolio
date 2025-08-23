@@ -40,7 +40,7 @@ This was my contribution as a researcher in the Robotics and Medical Systems Lab
 For the university's liquid rocketry club I developed a proof of concept rocket tracker to receive telemtery from the rocket throughout its flight. A few prototypes were created but was ultimately terminated to focus on preparing for rocket launch. 
 
 
-![Arm Subsystem]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
+![Arm Subsystem]({{ '/images/tracker.PNG' | relative_url }}){:.img-fluid}
 
 [See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
 
