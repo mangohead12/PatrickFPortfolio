@@ -49,6 +49,6 @@ For the university's liquid rocketry club I developed a proof of concept rocket 
 The final project for Machine Design was a challenge to design, build and test straw bridges. Grades were based on load failure prediction and performance efficiency compared to the class average. My group ended up scoring the highest efficiency ever in class history with an efficiency of 732%. Our success was attributed performing several iterations of simulation to find the most effecient design while building several prototypes to ensure the best build quality.
 
 
-![Arm Subsystem]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
+![Bridge]({{ '/images/bridge.png' | relative_url }}){:.img-fluid}
 
 [See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
