@@ -5,4 +5,15 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/500
 collection: projects
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+<div class="video-container">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/auz7zTZCZwE?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
+    title="End effector demo!"
+    loading="lazy"
+    frameborder="0"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+</div>
+
+This project was my contribution to the Robotics and Medical Systems Lab at the University of California, Riverside as an undergraduate researcher. 
