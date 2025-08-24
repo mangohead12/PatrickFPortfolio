@@ -43,7 +43,7 @@ For the university's liquid rocketry club I developed a proof of concept rocket 
 
 ![Rocket tracker]({{ '/images/tracker.png' | relative_url }}){:.img-fluid}
 
-[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
+[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/rocket_tracker/){: .btn .btn--primary .btn--custom }
 
 ### Straw Bridge Challenge
 
@@ -52,4 +52,4 @@ The final project for Machine Design was a challenge to design, build and test s
 
 ![Bridge]({{ '/images/bridge.PNG' | relative_url }}){:.img-fluid}
 
-[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/end_effector/){: .btn .btn--primary .btn--custom }
+[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/bridge/){: .btn .btn--primary .btn--custom }
