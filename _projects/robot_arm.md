@@ -62,7 +62,7 @@ The first 3 DoF uses FRC motors since they could provide substantial torque whil
 
 ![Arm Subsystem]({{ '/images/robot-arm2.PNG' | relative_url }}){:.img-fluid}
 
-### The End effector
+### The End effector (WIP)
 The end effector (quaternion wrist) uses servos for actuation and two vacuum motors to grasp objects like a mixing cup or ice.
 
 
