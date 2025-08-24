@@ -32,6 +32,13 @@ My design contraints were derived from the existing robot arm:
 
 ### Ideation
 
+My initial approach towards converging on a mechanism was to create rough models in Fusion 360 and evaluating efficacy from there.
+
+#### Pin Slot Mechanism
+Using a platform with bearings that ride on a slotted helical path to achieve simulataneous twisting and pulling
+
+The size of the mechanism left little room for adjustment and fine tuning
+
 <div class="video-container">
   <iframe
     src="https://www.youtube-nocookie.com/embed/351bTEg0328?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
@@ -42,6 +49,11 @@ My design contraints were derived from the existing robot arm:
     allowfullscreen>
   </iframe>
 </div>
+
+#### Lead Screw Mechanism
+A platform mounted to a central ball screw. 
+
+This idea required a lot of hardware that was expensive and heavy for the size
 
 <div class="video-container">
   <iframe
@@ -54,6 +66,11 @@ My design contraints were derived from the existing robot arm:
   </iframe>
 </div>
 
+#### Parallel Platform
+A platform connected to three parallel linkages that pull and twist the platform
+
+This idea was mechanically complicated and had several high stress parts, specifically the linkages
+
 <div class="video-container">
   <iframe
     src="https://www.youtube-nocookie.com/embed/AtYT0v4jE3Q?rel=0&mute=1&autoplay=0&modestbranding=1&playsinline=1"
@@ -64,4 +81,9 @@ My design contraints were derived from the existing robot arm:
     allowfullscreen>
   </iframe>
 </div>
+
+### The Final Design
+While taking a different approach by decomposing the twisting and pulling into seperate motions, I came up with a cable driven mechanism that would acheive the two motions seperately. 
+
+### Gripper Design
 
