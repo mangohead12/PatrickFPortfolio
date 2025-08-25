@@ -23,3 +23,4 @@ Our final bridge held a load of 8 kg and weighed 10 grams!
 
 
 ![Bridge]({{ '/images/bridgejig.png' | relative_url }}){:.img-fluid}
+![Bridge]({{ '/images/bridgejig2.PNG' | relative_url }}){:.img-fluid}
