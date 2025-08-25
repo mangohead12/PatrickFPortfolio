@@ -92,8 +92,11 @@ This design was evaluated to be the most promising of the ideas since it was com
 ![Arm Subsystem]({{ '/images/picker2.PNG' | relative_url }}){:.img-fluid}
 
 The figures above serves as a visual demonstration of the working principle of the actator. 
+
 The left column shows the end effector at its starting position after grasping the target fruit.
+
 In the middle column, the actuation string is pulled so that central drum turns to twist the target fruit. 
+
 As the string is fully unwound from the central drum, the string begins pulling downwards on the platform that houses the drum which pulls the target away from its branch.
 
 Constant force springs for each sections retract the end effector back to starting position.
