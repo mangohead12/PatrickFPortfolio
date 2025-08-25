@@ -1,7 +1,7 @@
 ---
 title: "Fruit Picking End Effector"
 order: 2
-excerpt: "An end effector I designed and tested as part of my research work in the Robotics and Medical Systems lab."
+excerpt: "An end effector I designed and tested for an agricultural robot as part of my research work in the Robotics and Medical Systems lab."
 collection: projects
 ---
 
