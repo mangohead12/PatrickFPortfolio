@@ -1,7 +1,7 @@
 ---
 title: "Fruit Picking End Effector"
 order: 2
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "An end effector I designed and tested as part of my research work in the Robotics and Medical Systems lab."
 collection: projects
 ---
 
