@@ -99,6 +99,6 @@ As the string is fully unwound from the central drum, the string begins pulling 
 Constant force springs for each sections retract the end effector back to starting position.
 
 ### Notes on Mounting Structural Design and Fabrication
-The mounting structure for end effector was printed in PA12 since I used generative design to minimize the weight and ensure the structure would be strong enough. The 3D printed parts in white were printed on various Stratsys polyjet printers since there were many small features that would not work well if printed on an FDM printer. Finally, the vacuum cup was 3D printed using Flexible 80A from formlabs but was too stiff, requiring an exteral force to create a seal with target fruit. 
+The mounting structure for end effector was printed in PA12, I used generative design to minimize the weight and ensure the structure would be strong enough. The 3D printed parts in white were printed on various Stratsys polyjet printers since there were many small features that would not work well if printed on an FDM printer. Finally, the vacuum cup was 3D printed using Flexible 80A from formlabs but was too stiff, requiring an exteral force to create a seal with target fruit. 
 
 Parts such as the linear bearings and linear shaft were originally held using clamp style mounting but were eventually epoxied in instead since those parts detached easily with little force. 
