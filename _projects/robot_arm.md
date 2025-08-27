@@ -36,10 +36,8 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
 
 ![The Robot Arm So Far!]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
 
+## The Design
 ---
-
-<details open markdown="1">
-  <summary><strong>The Design</strong></summary>
 
 ## Design Goals
 The following were some goals that were determined during the ideation phase:
@@ -65,14 +63,8 @@ The first 3 DoF uses FRC motors since they could provide substantial torque whil
 ### The End effector (WIP)
 The end effector (quaternion wrist) uses servos for actuation and two vacuum motors to grasp objects like a mixing cup or ice.
 
-
-
-</details>
-
+## Design Choices and Methods
 ---
-
-<details open markdown="1">
-  <summary><strong> ## Design Choices and Design Methods</strong></summary>
 
 ## Electronics
 For the higher load subsystem we chose to use FRC motors and controllers, namely the 775pro and TalonFXS, because they are readily available, include a wide range of compatible components, and deliver substantial torque and speed without breaking the bank.
@@ -174,9 +166,9 @@ The current design is 3D printed using Flexible 80A resin on a Form 4 printer, t
   </iframe>
 </div>
 
-</details>
-
 ## Additonal Photos
+---
+
 <div class="masonry" markdown="1">
 ![Alt 1]({{ '/images/pic1.png' | relative_url }})
 ![Alt 2]({{ '/images/pic2.png' | relative_url }})
