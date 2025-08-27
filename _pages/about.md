@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "About"
+title: "About This Site"
 permalink: /
 author_profile: true
 ---
