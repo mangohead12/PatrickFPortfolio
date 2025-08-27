@@ -24,18 +24,18 @@ teaser: robot-arm.png        # add this too for compatibility
 ## Project: 6-DoF Robotic Arm
 ---
 The robot arm was a group project with four other students. 
-The goal was to create a robotic arm with the goal of making mixed drink to order within a 8 week period. 
+Our goal was to build a robotic arm capable of mixing and serving drinks on demand within an eight-week timeframe.
 I was responsible for mechanical design, fabrication, and electronics planning throughout the project.
-Some of my resposibilities included the following:
-- Estimate load conditions and calculate ideal gearing to ensure motor capability and electronics reliability
-- Model the robotic system in Fusion 360 considering performance requirements, fabrication limitations and material availability
-- Fabricated a 3 DoF robot arm prototype using a CNC mill and various 3D printers
+Some of my responsibilities included:
+- Estimated load conditions and calculated optimal gearing to ensure motor performance and electronics reliability
+- Modeled the robotic system in Fusion 360, accounting for performance requirements, fabrication limitations, and material availability
+- Fabricated a 3-DoF robotic arm prototype using a CNC mill and 3D printers
 
 The work described below is my contribution to the project in detail.
 
 
 
-As of now, the first three degrees of freedom (positioning) are complete, while the remaining three degrees (end-effector for orientation) are still in progress.
+Currently, the first three degrees of freedom (positioning) are complete; the remaining three (end-effector orientation) are still in progress.
 
 ![The Robot Arm So Far!]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
 
@@ -44,7 +44,7 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
 The following were some goals that were determined during the ideation phase:
 - The robot shall be compatible with ROS2
 - The robot should be capable of moving from one end point to the other within one second
-- The robot should be capable of holding and moving a 2 pound payload at the end of the arm
+- The robot should be capable of holding and moving a 2 kg payload at the end of the arm
 - Robot parts shall be manufacturable in house or with purchaseable components
 - The robot should have a workspace of 6 feet accross
 - The robot shall be capable of holding 16oz of liquid and various small objects
@@ -60,12 +60,12 @@ The robot arm is divided into two subsystems:
 ---
 This subsystem is used to move the end effector between way points to retrieve and dispend ingredients. Since this subsystem has a considerable range, the load requirement is much higher than the end effector subsystem.
 
-The robot arm is a 3 DoF arm made of aluminum rectangular tubing for the structure and carbon fiber tubes for the arms.
+3-DoF arm made from aluminum rectangular tubing for structure and carbon-fiber tubing for the arm segments.
 The first 3 DoF uses FRC motors since they could provide substantial torque while having a desirable speed. All the motors and gearboxes are mounted towards the base to keep the arm segments light.
 
 ![Arm Subsystem]({{ '/images/robot-arm2.PNG' | relative_url }}){:.img-fluid}
 
-### The End effector (WIP)
+### The End Effector (WIP)
 ---
 This subsystem is used to manipulate ingredients.
 
@@ -78,11 +78,11 @@ The end effector (quaternion wrist) uses servos for actuation and two vacuum mot
 ---
 For the higher load subsystem we chose to use FRC motors and controllers, namely the 775pro and TalonFXS, because they are readily available, include a wide range of complimentary components, and deliver substantial torque and speed without breaking the bank.
 
-Additionally, the controllers had many built in features that reduced the work load for us such as built in CAN communication, current sensing and ROS compatability.
+Additionally, the controllers had many built in features that reduced the work load for us such as built in CAN communication, current sensing and ROS compatibility.
 
 
 
-For the end effector, we planned to use servos for the acuations and a small vacuum motor for gripping. Servos were selected since were wanted to reduce the workload by eliminated PID tuning and additional hardware.
+For the End Effector, we planned to use servos for actuation and a small vacuum motor for gripping. Servos were selected to reduce workload by eliminating the need for PID tuning and additional hardware.
 
 Below is the rough schematic we followed for the electronics layout:
 
@@ -90,7 +90,7 @@ Below is the rough schematic we followed for the electronics layout:
 
 ### Torque Estimation
 ---
-The estimated torque requirement was estimated using static analysis with the highest load estimated at around 40 Nm.
+The torque requirement was estimated using static analysis with the highest load estimated at around 40 Nm.
 
 It was assumed that the payload would be 2 kg with a torque arm of 1 meter based on the design goals and constraints.
 
@@ -181,7 +181,7 @@ The current design is 3D printed using Flexible 80A resin on a Form 4 printer, t
   </iframe>
 </div>
 
-## Additonal Photos
+## Additional Photos
 ---
 
 <div class="masonry" markdown="1">
