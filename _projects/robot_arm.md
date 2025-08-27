@@ -107,7 +107,7 @@ Torque and RPM at peak power were used for sizing, based on the assumption that 
 
 The reduction was calculated based on the goal of traveling from endpoint to endpoint in under one second, 0.5 rps or 60 rpm.
 
-A 20% margin was added to the peak rpm then divided by the desired 60 rpm resulting in a 187:1 desired gear reduction. However, the final reduction was reduced to 120:1 later on since the arm lengths were reduced to meet size constraints. 
+A 20% margin was added to the peak rpm, to provide speed headroom, then divided by the desired 60 rpm resulting in a 187:1 desired gear reduction. However, the final reduction was reduced to 120:1 later on since the arm lengths were reduced to meet size constraints. 
 
 $$
 Desired RPM = 60 RPM
@@ -121,10 +121,10 @@ $$
 Gear Ratio = \frac{9370 RPM * 1.2}{60 RPM} = 187.4
 $$
 
-This gear ratio was then applied to the motor’s theoretical output torque and compared against the estimated requirement of ~40 Nm to confirm that it would meet performance needs.
+This gear ratio was then applied to the motor’s theoretical output torque and compared against the estimated requirement of ~40 Nm to confirm that it would meet performance needs with some headroom to account for friction losses.
 
 $$
-Desired Torque = 40 Nm
+Desired Torque = 40 Nm *1.2 = 48 Nm
 $$
 
 $$
