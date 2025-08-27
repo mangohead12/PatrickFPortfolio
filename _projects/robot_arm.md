@@ -36,10 +36,7 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
 
 ![The Robot Arm So Far!]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
 
-## The Design
----
-
-## Design Goals
+## Design Goals and Constraints
 The following were some goals that were determined during the ideation phase:
 - The robot shall be compatible with ROS2
 - The robot should be capable of moving from one end point to the other within one second
@@ -50,18 +47,20 @@ The following were some goals that were determined during the ideation phase:
 - The robot should fit in a generic kitchen setting
 
 ## Subsystems
-
+---
 The robot arm is divided into two subsystems:
 - The arm: a 3DoF articulated arm.
 - The end effector: a quaternion wrist with an integrated vacuum cup gripper (WIP).
 
 ### The Robot Arm
+---
 The robot arm is a 3 DoF arm made of aluminum rectangular tubing for the structure and carbon fiber tubes for the arms.
 The first 3 DoF uses FRC motors since they could provide substantial torque while having a desirable speed. All the motors and gearboxes are mounted towards the base to keep the arm segments light.
 
 ![Arm Subsystem]({{ '/images/robot-arm2.PNG' | relative_url }}){:.img-fluid}
 
 ### The End effector (WIP)
+---
 The end effector (quaternion wrist) uses servos for actuation and two vacuum motors to grasp objects like a mixing cup or ice.
 
 ## Design Choices and Methods
