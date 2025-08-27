@@ -13,15 +13,15 @@ This website is a collection of my mechanical engineering projects that I have w
 
 I graduated from the University of California, Riverside with a BSME degree. In my last two years as an undergraduate I worked in the mechanical engineering makerspace as an assistant as well as a researcher in the Robotics and Medical Systems. 
 
-My responsibilities included fabricating parts to order for research labs, servicing equipment, leading operational and design for manufacturing workshops in addition to managing material inventory. As part of my training in the makerspace, I learned to use the equipment for my own projects such as a robot arm. Some of the machinery I worked with included desktop CNC routers, polyjet and multijet printers, waterjets and laser cutters. 
+At the makerspace, my responsibilities included fabricating parts to order for research labs, servicing equipment, leading operational and design for manufacturing workshops in addition to managing material inventory. As part of my training in the makerspace, I learned to use the equipment for my own projects such as a robot arm. Some of the machinery I worked with included desktop CNC routers, polyjet and multijet printers, waterjets and laser cutters. 
 
 ![Some machines in the mechanical engineering makerspace]({{ '/images/MEDDL.PNG' | relative_url }}){:.img-fluid}
 
-Much of my experience revolves around mechanical design, mechaism design for robotics, rapid prototyping and fabrication. Below are some projects where I applied some of the skills I have picked up over the last few years. 
+Outside of fabrication, my experience includes mechanical design, mechaism design for robotics and rapid prototyping. Below are some projects where I applied some of the skills I have picked up over the last few years. 
 
 ## Robot Arm
 
-This was my senior design project with five other students with the goal of developing a cross functional robotic arm to create mixed drinks to order within a 10 week time frame. I led the mechanical design,  fabrication, and electronics planning throughout the project.
+This was my senior design project with five other students with the goal of developing a cross functional robotic arm to create mixed drinks to order within a 10 week period. I led the mechanical design,  fabrication, and electronics planning throughout the project.
 
 ![Arm Subsystem]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
 
@@ -47,7 +47,7 @@ For the university's liquid rocketry club I developed a proof of concept rocket 
 
 ## Straw Bridge Challenge
 
-The final project for Machine Design was a challenge to design, build and test straw bridges. Grades were based on failure load prediction and performance efficiency compared to the class average. My group ended up scoring the highest efficiency ever in class history with an efficiency of 732%. Our success was attributed performing several iterations of simulation to find the most effecient design while building several prototypes to ensure the best build quality.
+The final project for Machine Design was a challenge to design, build and test straw bridges. Grades were based on failure load prediction and performance efficiency compared to the class average. My group ended up scoring the highest efficiency ever in the class's history with an efficiency of 732%. Our success was attributed performing several iterations of simulation to find the most effecient design while building several prototypes to ensure the best build quality.
 
 
 ![Bridge]({{ '/images/bridge.PNG' | relative_url }}){:.img-fluid}
