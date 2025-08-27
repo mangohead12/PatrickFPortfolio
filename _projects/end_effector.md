@@ -18,7 +18,7 @@ collection: projects
 
 This project was my contribution to the Robotics and Medical Systems Lab at the University of California, Riverside as an undergraduate researcher. 
 
-### Context
+## Context
 
 One of the ongoing projects of the research group is an agricultural robot that can access the interior of tree canopies to harvest fruits. My task was to design an end effector to twist and pull fruit from their stems once the arm continuum arm section of the robot is positioned below the target fruit. The figure below demonstrates the existing system that I am designing around. 
 
@@ -30,11 +30,11 @@ My design contraints were derived from the existing robot arm:
 - The end effector shall twist and pull to harvest the target
 - The end effector shall fit within the cross section of the continuum arm
 
-### Ideation
+## Ideation
 
-My initial approach towards converging on a mechanism was to create rough models in Fusion 360 and evaluating efficacy from there.
+My initial approach towards converging on a mechanism was to create rough models in Fusion 360 to effectively evaluate ideas considering manufacurability and efficacy.
 
-#### Pin Slot Mechanism
+### Pin Slot Mechanism
 Using a platform with bearings that ride on a slotted helical path to achieve simulataneous twisting and pulling
 
 The size of the mechanism left little room for adjustment and fine tuning
@@ -50,7 +50,7 @@ The size of the mechanism left little room for adjustment and fine tuning
   </iframe>
 </div>
 
-#### Lead Screw Mechanism
+### Lead Screw Mechanism
 A platform mounted to a central ball screw. 
 
 This idea required a lot of hardware that was expensive and heavy for the size
@@ -66,7 +66,7 @@ This idea required a lot of hardware that was expensive and heavy for the size
   </iframe>
 </div>
 
-#### Parallel Platform
+### Parallel Platform
 A platform connected to three parallel linkages that pull and twist the platform
 
 This idea was mechanically complicated and had several high stress parts, specifically the linkages
@@ -82,11 +82,9 @@ This idea was mechanically complicated and had several high stress parts, specif
   </iframe>
 </div>
 
-### The Final Design
-#### Actuator Design
-While taking a different approach by decomposing the twisting and pulling into seperate motions, I came up with a cable driven mechanism that would achieve the two motions seperately. 
-
-This design was evaluated to be the most promising of the ideas since it was compact and lightweight with room for adjustment.
+## The Final Design
+### Actuator Design
+I settled on a cable-driven design that decouples the twist and pull motion, ideal for compactness, weight, and adjustability.
 
 ![Arm Subsystem]({{ '/images/picker1.PNG' | relative_url }}){:.img-fluid}
 ![Arm Subsystem]({{ '/images/picker2.PNG' | relative_url }}){:.img-fluid}
@@ -101,7 +99,7 @@ As the string is fully unwound from the central drum, the string begins pulling 
 
 Constant force springs for each sections retract the end effector back to starting position.
 
-### Notes on Mounting Structural Design and Fabrication
-The mounting structure for end effector was printed in PA12, I used generative design to minimize the weight and ensure the structure would be strong enough. The 3D printed parts in white were printed on various Stratsys polyjet printers since there were many small features that would not work well if printed on an FDM printer. Finally, the vacuum cup was 3D printed using Flexible 80A from formlabs but was too stiff, requiring an exteral force to create a seal with target fruit. 
+## Notes on Mounting Structural Design and Fabrication
+The mounting structure was 3D printed in PA12 using generative design to optimize strength and reduce weight. White components were produced on Stratasys PolyJet printers to preserve fine features not feasible with FDM. The vacuum cup, printed in Flexible 80A resin (Formlabs), was too stiff and required external force to seal around the fruit.
 
 Parts such as the linear bearings and linear shaft were originally held using clamp style mounting but were eventually epoxied in instead since those parts detached easily with little force. 
