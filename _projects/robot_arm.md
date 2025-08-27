@@ -42,7 +42,7 @@ Currently, the first three degrees of freedom (positioning) are complete; the re
 ## Design Goals and Constraints
 ---
 The following were some goals that were determined during the ideation phase:
-- The robot shall be compatible with ROS2
+- The robot shall be compatible with ROS 2
 - The robot should be capable of moving from one end point to the other within one second
 - The robot should be capable of holding and moving a 2 kg payload at the end of the arm
 - Robot parts shall be manufacturable in house or with purchaseable components
@@ -82,7 +82,7 @@ Additionally, the controllers had many built in features that reduced the work l
 
 
 
-For the End Effector, we planned to use servos for actuation and a small vacuum motor for gripping. Servos were selected to reduce workload by eliminating the need for PID tuning and additional hardware.
+For the end effector, we planned to use servos for actuation and a small vacuum motor for gripping. Servos were selected to reduce workload by eliminating the need for PID tuning and additional hardware.
 
 Below is the rough schematic we followed for the electronics layout:
 
