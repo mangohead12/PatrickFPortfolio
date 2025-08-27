@@ -50,6 +50,7 @@ The following were some goals that were determined during the ideation phase:
 - The robot should fit in a generic kitchen setting
 
 ## Subsystems
+
 The robot arm is divided into two subsystems:
 - The arm: a 3DoF articulated arm.
 - The end effector: a quaternion wrist with an integrated vacuum cup gripper (WIP).
