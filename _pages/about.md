@@ -17,7 +17,7 @@ At the makerspace, I fabricated parts for research labs, serviced equipment, led
 
 ![Some machines in the mechanical engineering makerspace]({{ '/images/MEDDL.PNG' | relative_url }}){:.img-fluid}
 
-Outside of fabrication, my experience includes mechanical design, mechanism design for robotics and rapid prototyping. Below are some projects where I applied some of the skills I have picked up over the last few years. 
+Beyond fabrication, I have experience in mechanical design, mechanism design for robotics, and rapid prototyping.
 
 ## Robot Arm
 
@@ -38,7 +38,7 @@ This was my contribution as a researcher in the Robotics and Medical Systems (Ra
 
 ## Rocket Tracker
 
-For the university's liquid rocketry club I developed a proof of concept rocket tracker to receive telemtery from the rocket throughout its flight. A few prototypes were created but was ultimately terminated to focus on preparing for rocket launch. 
+For my university’s liquid rocketry club, I developed a proof-of-concept rocket tracker to receive telemetry throughout flight. Several prototypes were built, but the project was eventually paused so the team could focus on preparing for launch.
 
 
 ![Rocket tracker]({{ '/images/tracker.png' | relative_url }}){:.img-fluid}
@@ -47,7 +47,7 @@ For the university's liquid rocketry club I developed a proof of concept rocket 
 
 ## Straw Bridge Challenge
 
-The final project for Machine Design was a challenge to design, build and test straw bridges. Grades were based on failure load prediction and performance efficiency compared to the class average. My group ended up scoring the highest efficiency ever in the class's history with an efficiency of 732%. Our success was attributed performing several iterations of simulation to find the most effecient design while building several prototypes to ensure the best build quality.
+The final project for Machine Design was a challenge to design, build and test straw bridges. Grades were based on failure load prediction and performance efficiency compared to the class average. My group ended up scoring the highest efficiency ever in the class's history with an efficiency of 732%. Our success came from multiple simulation iterations to refine the design and several prototypes to ensure build quality.
 
 
 ![Bridge]({{ '/images/bridge.PNG' | relative_url }}){:.img-fluid}
