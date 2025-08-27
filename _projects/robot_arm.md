@@ -66,7 +66,7 @@ The end effector (quaternion wrist) uses servos for actuation and two vacuum mot
 ## Design Choices and Methods
 ---
 
-## Electronics
+### Electronics
 For the higher load subsystem we chose to use FRC motors and controllers, namely the 775pro and TalonFXS, because they are readily available, include a wide range of compatible components, and deliver substantial torque and speed without breaking the bank.
 
 Additionally, the controllers had many built in features that reduced the work load for us such as built in CAN communication, current sensing and ROS compatability.
@@ -77,7 +77,7 @@ Below is the rough schematic we followed for the electronics layout:
 
 ![The Electronics Schematic!]({{ '/images/electronics-schematic.PNG' | relative_url }}){:.img-fluid}
 
-## Torque Estimation
+### Torque Estimation
 The estimated torque requirement was estimated using static analysis with the highest load estimated at around 40 Nm.
 
 Since this was before the final design was complete, it was assumed that the payload would be around 2 kg with a torque arm of 1 meter.
@@ -85,7 +85,7 @@ Since this was before the final design was complete, it was assumed that the pay
 ![FBD]({{ '/images/fbd.PNG' | relative_url }}){:.img-fluid}
 
 
-## Gearbox Sizing
+### Gearbox Sizing
 Although the motors are fairly strong, a gearbox was necessary to achieve the desired output torque and protect upstream electronics from overload.
 
 Torque and RPM at peak power were used for sizing, based on the assumption that the motor would operate near this point under load.
@@ -130,7 +130,7 @@ All three joints of the arm uses the same size gearbox since they all have a tor
 
 ![Side view of the arm gearbox]({{ '/images/robot-arm3.png' | relative_url }}){:.img-fluid}
 
-## Part Selection
+### Part Selection
 In order to meet our deadline, we selected materials that were available and were compatible with the machinery we had access to. Some machinery we used included the HAAS TM-1 and some manual mills and lathes.
 
 The main structural aluminum was sourced from the remnant section at Industrial Metal Supply, where we found an 8-foot piece of 6x2-inch 6061 tubing for $40.
@@ -148,7 +148,7 @@ The carbon fiber tubes, aluminum round tubing, and bearings were purchased from 
 </div>
 
 
-## Gripper Design
+### Gripper Design
 We found limited resources on vacuum cup design, so we began by replicating common vacuum cups used in factory automation and iterated from there.
 
 Through several rounds of testing, we found that the optimal design for holding a large cup of liquid was a cup with a large area, no bellows and a thick base to ensure little flexing while holding.
