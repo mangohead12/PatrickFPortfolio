@@ -22,6 +22,7 @@ teaser: robot-arm.png        # add this too for compatibility
 </div>
 
 ## Project: 6-DoF Robotic Arm
+---
 The robot arm was a group project with four other students. 
 The goal was to create a robotic arm with the goal of making mixed drink to order within a 8 week period. 
 I was responsible for mechanical design, fabrication, and electronics planning throughout the project.
@@ -37,6 +38,7 @@ As of now, the first three degrees of freedom (positioning) are complete, while 
 ![The Robot Arm So Far!]({{ '/images/robot-arm.png' | relative_url }}){:.img-fluid}
 
 ## Design Goals and Constraints
+---
 The following were some goals that were determined during the ideation phase:
 - The robot shall be compatible with ROS2
 - The robot should be capable of moving from one end point to the other within one second
