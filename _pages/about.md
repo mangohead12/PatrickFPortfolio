@@ -13,7 +13,7 @@ This website is a collection of my mechanical engineering projects that I have w
 
 I earned my B.S. in Mechanical Engineering from the University of California, Riverside. During my junior and senior years, I worked as an assistant in the mechanical engineering makerspace and conducted research in the Robotics and Medical Systems Lab.
 
-At the makerspace, my responsibilities included fabricating parts to order for research labs, servicing equipment, leading operational and design for manufacturing workshops in addition to managing material inventory. As part of my training in the makerspace, I learned to use the equipment for my own projects such as a robot arm. Some of the machinery I worked with included desktop CNC routers, polyjet and multijet printers, waterjets and laser cutters. 
+At the makerspace, I fabricated parts for research labs, serviced equipment, led operational and design-for-manufacturing workshops, and managed material inventory. This role also gave me hands-on training with tools like desktop CNC routers, PolyJet and MultiJet printers, waterjets, and laser cutters, which I applied to personal projects like my robotic arm.
 
 ![Some machines in the mechanical engineering makerspace]({{ '/images/MEDDL.PNG' | relative_url }}){:.img-fluid}
 
