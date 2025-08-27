@@ -44,15 +44,15 @@ The following were some goals that were determined during the ideation phase:
 - The robot shall be compatible with ROS2
 - The robot should be capable of moving from one end point to the other within one second
 - The robot should be capable of holding and moving a 2 pound payload at the end of the arm
-- Robot parts shall be manufacturable in house or purchaseable online
+- Robot parts shall be manufacturable in house or with purchaseable components
 - The robot should have a workspace of 6 feet accross
 - The robot shall be capable of holding 16oz of liquid and various small objects
 - The robot should fit in a generic kitchen setting
 
 ## Subsystems
 The robot arm is divided into two subsystems:
--The arm: a 3DoF articulated arm.
--The end effector: a quaternion wrist with an integrated vacuum cup gripper (WIP).
+- The arm: a 3DoF articulated arm.
+- The end effector: a quaternion wrist with an integrated vacuum cup gripper (WIP).
 
 ### The Robot Arm
 The robot arm is a 3 DoF arm made of aluminum rectangular tubing for the structure and carbon fiber tubes for the arms.
