@@ -29,7 +29,7 @@ This was my senior design project with five other students with the goal of deve
 
 ## Fruit Picker
 
-This was my contribution as a researcher in the Robotics and Medical Systems Lab (RaMS). My task was to develop an end effector for a continuum robot that would travel through tree branches to access hanging fruit from the interior of tree canopies. Once the continuum robot is in place the end effector will grasp the fruit, twist and pull to remove the fruit from the tree. 
+This was my contribution as a researcher in the Robotics and Medical Systems (RaMS) Lab. My task was to develop an end effector for a continuum robot that would travel through tree branches to access hanging fruit from the interior of tree canopies. Once the continuum robot is in place the end effector will grasp the fruit, twist and pull to remove the fruit from the tree. 
 
 ![Arm Subsystem]({{ '/images/picker1.PNG' | relative_url }}){:.img-fluid}
 ![Arm Subsystem]({{ '/images/picker2.PNG' | relative_url }}){:.img-fluid}
