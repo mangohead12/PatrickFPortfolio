@@ -121,7 +121,7 @@ $$
 Gear Ratio = \frac{9370 RPM * 1.2}{60 RPM} = 187.4
 $$
 
-This gear ratio was then applied to the motor’s theoretical output torque and compared against the estimated requirement of ~40 Nm to confirm that it would meet performance needs with some headroom to account for friction losses.
+This gear ratio was then applied to the motor’s theoretical output torque and compared against the estimated requirement of ~40 Nm with a 20% torque margin to confirm that it would meet performance needs with some headroom to account for unexpected loads. Since the available torque is much higher that the required torque, friction was determined to be negligible.
 
 $$
 Desired Torque = 40 Nm *1.2 = 48 Nm
