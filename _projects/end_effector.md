@@ -24,7 +24,7 @@ One of the ongoing projects of the research group is an agricultural robot that 
 
 ![Cont Robot Arm]({{ '/images/continuum.PNG' | relative_url }}){:.img-fluid}
 
-My design contraints were derived from the existing robot arm:
+My design constraints were derived from the existing robot arm:
 - The end effector should weigh less than 100 grams
 - The end effector shall grasp fruit with a vacuum cup
 - The end effector shall twist and pull to harvest the target
