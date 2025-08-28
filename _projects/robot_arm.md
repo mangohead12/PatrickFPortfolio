@@ -50,6 +50,14 @@ The following were some goals that were determined during the ideation phase:
 - The robot shall be capable of holding 16oz of liquid and various small objects
 - The robot should fit in a generic kitchen setting
 
+This was the initial task decomposition for the robot:
+- Recieve order from user
+- Pick up mixing cup
+- Move to ingredient location
+- Dispense ingredient to mixing cup
+- Repeat previous two steps until drink is assembled
+- Dispense drink to user
+
 ## Subsystems
 ---
 The robot arm is divided into two subsystems:
