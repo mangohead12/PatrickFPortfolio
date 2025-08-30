@@ -178,8 +178,8 @@ Through several rounds of testing, we found that the optimal design for holding 
 
 The current design is 3D printed using Flexible 80A resin on a Form 4 printer, though we also experimented with urethane casting during development.
 
-![FBD]({{ '/images/UC.PNG' | relative_url }}){:.img-fluid}
-![FBD]({{ '/images/cuptest.PNG' | relative_url }}){:.img-fluid}
+![FBD]({{ '/images/UC.png' | relative_url }}){:.img-fluid}
+![FBD]({{ '/images/cuptest.png' | relative_url }}){:.img-fluid}
 
 <div class="video-container">
   <iframe
