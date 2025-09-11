@@ -89,6 +89,8 @@ I settled on a cable-driven design that decouples the twist and pull motion, ide
 ![Arm Subsystem]({{ '/images/picker1.PNG' | relative_url }}){:.img-fluid}
 ![Arm Subsystem]({{ '/images/picker2.PNG' | relative_url }}){:.img-fluid}
 
+#### Working Principle:
+
 The figures above serves as a visual demonstration of the working principle of the actator. 
 
 The left column shows the end effector at its starting position after grasping the target fruit.
