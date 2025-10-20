@@ -23,6 +23,7 @@ This project was my contribution to the Robotics and Medical Systems Lab at the 
 One of the ongoing projects of the research group is an agricultural robot that can access the interior of tree canopies to harvest fruits. My task was to design an end effector to twist and pull fruit from their stems once the arm continuum arm section of the robot is positioned below the target fruit. The figure below demonstrates the existing system that I am designing around. 
 
 ![Cont Robot Arm]({{ '/images/continuum.PNG' | relative_url }}){:.img-fluid}
+![FBD]({{ '/images/GD3.png' | relative_url }}){:.img-fluid}
 
 My design constraints were derived from the existing robot arm:
 - The end effector should weigh less than 100 grams
