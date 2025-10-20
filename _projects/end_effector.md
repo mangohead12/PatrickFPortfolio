@@ -20,7 +20,15 @@ This project was my contribution to the Robotics and Medical Systems Lab at the 
 
 ## Context
 
-One of the ongoing projects of the research group is an agricultural robot that can access the interior of tree canopies to harvest fruits. My task was to design an end effector to twist and pull fruit from their stems once the arm continuum arm section of the robot is positioned below the target fruit. The figure below demonstrates the existing system that I am designing around. 
+One of the ongoing projects of the research group is an agricultural robot that can access the interior of tree canopies to harvest fruits. My task was to design an end effector to twist and pull fruit from their stems once the continuum arm section of the robot is positioned below the target fruit. The figure below demonstrates the existing system that I am designing around. 
+
+The task decomposition of the robot were as follows:
+- The robot will position itself below the target fruit
+- The continuum arm will manuveur the end effector within range of the target fruit, avoiding obstacle branches on the way
+- The end effector will pick the fruit off the branch by twisting and pulling
+- The arm will deposit the fruit and repeat previous steps as needed
+
+Below are some figures to provide some visual context to the operation of the robot and the volume constraints I was working with. 
 
 ![Cont Robot Arm]({{ '/images/continuum.PNG' | relative_url }}){:.img-fluid}
 
