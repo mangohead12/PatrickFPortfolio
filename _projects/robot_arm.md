@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Robot Arm (WIP)"
+title: "Robot Arm V1"
 collection: projects
 order: 1
 excerpt: "A custom cross functional robotic arm originally for a group project."
