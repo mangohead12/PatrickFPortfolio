@@ -142,7 +142,7 @@ $$
 Linear Current-Torque Relationship: 
 
 $$
-Estimated Operating Torque = Torque Constant * (Operationg Current - Free Current) = 0.00529 \frac{Nm}{A} * ((0.1 * 134 A) - 0.7 A) = 0.0677 Nm 
+Estimated Operating Torque = Torque Constant * (Operating Current - Free Current) = 0.00529 \frac{Nm}{A} * ((0.1 * 134 A) - 0.7 A) = 0.0677 Nm 
 $$
 
 Linear Speed-Current Relationship:
