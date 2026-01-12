@@ -168,6 +168,10 @@ $$
 Checking Output Torque with First Pass Estimate:
 
 $$
+Desired Torque = 30 Nm
+$$
+
+$$
 Output Torque = Operating Torque * Reduction * Efficiency = 0.0677 Nm  * 563.33 * 0.9 = 34.3239 Nm
 $$
 
