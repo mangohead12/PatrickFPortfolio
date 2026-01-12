@@ -145,7 +145,7 @@ $$
 Estimated Operating Torque = Torque Constant * (Operating Current - Free Current) = 0.00533 \frac{Nm}{A} * ((13.4 A) - 0.7 A) = 0.0677 Nm 
 $$
 
-Linear Speed-Current Relationship:
+Linear Speed-Torque Relationship:
 
 $$
 Estimated Operating Speed = Free Speed * (1 - \frac{Operating Torque}{Stall Torque}) = 18730 RPM * (1 - \frac{0.0677 Nm}{0.71 Nm}) = 16900 RPM = 281.66 Rotations Per Second
