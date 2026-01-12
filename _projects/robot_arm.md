@@ -100,7 +100,7 @@ Below is the rough schematic we followed for the electronics layout:
 ---
 The torque requirement was estimated using static analysis with the highest load estimated at around 40 Nm.
 
-It was assumed that the payload would be 2 kg with a torque arm of 1 meter based on the design goals and constraints.
+It was assumed that the payload and end effector would be 2 kg with a torque arm of 1 meter based on the design goals and constraints.
 
 ![FBD]({{ '/images/fbd.PNG' | relative_url }}){:.img-fluid}
 
@@ -109,38 +109,66 @@ It was assumed that the payload would be 2 kg with a torque arm of 1 meter based
 ---
 Despite the motors being fairly strong, a gearbox was necessary to achieve the desired output torque and protect upstream electronics from overload.
 
-Torque and RPM at peak power were used for sizing, based on the assumption that the motor would operate near this point while performing work.
+Since continuous current and continuous torque aren't provided, motor performance curves  were used to derive a conservative continuous operating estimate of 10% of the stall current. 10% limits high current draw and provides headroom for thermal loading under continuous loading.    
 
 ![Motor Curve]({{ '/images/motor-curve.png' | relative_url }}){:.img-fluid}
 
-The reduction was calculated based on the goal of traveling from endpoint to endpoint in under one second, 0.5 rps or 60 rpm.
-
-A 20% margin was added to the peak rpm, to provide speed headroom, then divided by the desired 60 rpm resulting in a 187.4:1 desired gear reduction. However, the final reduction was reduced to 120:1 later on since the arm lengths were reduced to meet size constraints. 
+To determine the torque and associated speed of 10% of stall current, a linear current-torque relationship is derived from the motor performance curve. Then a linear speed-torque relationship is applied to determine the associated speed value for the estimated output torque. 
 
 $$
-Desired RPM = 60 RPM
+Free Speed = 18730
 $$
 
 $$
-Peak Power RPM = 9370 RPM
+Free Curent = 0.7 A
 $$
 
 $$
-Gear Ratio = \frac{9370 RPM * 1.2}{60 RPM} = 187.4
-$$
-
-This gear ratio was then applied to the motor’s theoretical output torque and compared against the estimated requirement of ~40 Nm with a 20% torque margin to confirm that it would meet performance needs with some headroom to account for unexpected loads. Since the available torque is much higher that the required torque, friction was determined to be negligible.
-
-$$
-Desired Torque = 40 Nm *1.2 = 48 Nm
+Stall Current = 134 A
 $$
 
 $$
-Peak Power Torque = 0.3 Nm
+Stall Torque = 0.71 Nm
 $$
 
 $$
-Estimated Output Torque = 0.3 Nm * 187.4 = 56.1 Nm
+Estimated Operating Current = 0.1 * Stall Current = 0.1 * 134 A = 13.4 A
+$$
+
+$$
+Torque Constant = \frac{Stall Torque}{Stall Current - Free Current} = \frac{0.71 Nm}{134 A - 0.7 A} = 0.00533 \frac{Nm}{A}
+$$
+
+Linear Current-Torque Relationship: 
+
+$$
+Estimated Operating Torque = Torque Constant * (Operationg Current - Free Current) = 0.00529 \frac{Nm}{A} * ((0.1 * 134 A) - 0.7 A) = 0.0677 Nm 
+$$
+
+Linear Speed-Current Relationship:
+
+$$
+Estimated Operating Speed = Free Speed * (1 - \frac{Operating Torque}{Stall Torque}) = 18730 RPM * (1 - \frac{0.0677 Nm}{0.71 Nm}) = 16900 RPM = 281.66 Rotations Per Second
+$$
+
+With motor outputs estimated, reductions can be estimated based on the goal of traveling from endpoint to endpoint in under one second, 0.5 rps or 30 rpm and a target output torque of 30 Nm.
+
+$$
+Desired RPM = 30 RPM
+$$
+
+$$
+Operating RPM = 16900 RPM
+$$
+
+$$
+Reduction Based on Speed = \frac{Operating RPM}{Output RPM} = \frac{16900}{30} = 563.33
+$$
+
+Checking Output Torque with First Pass Estimate:
+
+$$
+Output Torque = Operating Torque * Reduction * Efficiency = 0.0677 Nm  * 563.33 * 0.9 = 34.3239 Nm
 $$
 
 $$
