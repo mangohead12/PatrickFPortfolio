@@ -179,7 +179,7 @@ $$
 Output > Desired
 $$
 
-All three joints of the arm uses the same size gearbox since they all have a torque requirement below the max output torque and can perform a 180 degree rotation under a second.
+All three joints of the arm uses the same size gearbox since they all meet the continuous torque and speed requirement of the first pass ratio.
 
 ![Side view of the arm gearbox]({{ '/images/robot-arm3.png' | relative_url }}){:.img-fluid}
 
