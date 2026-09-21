@@ -10,3 +10,4 @@ teaser: breakoutSchematic.png        # add this too for compatibility
 ---
 
 
+![Electrical Schematic]({{ '/images/breakoutSchematic.png' | relative_url }}){:.img-fluid}
