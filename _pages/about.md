@@ -19,6 +19,21 @@ At the makerspace, I fabricated parts for research labs, serviced equipment, led
 
 Beyond fabrication, I have experience in mechanical design, mechanism design for robotics, and rapid prototyping.
 
+## Works In Progess
+
+Some projects I am currently working on! I will add more information to these pages as once I reach some milestones.
+
+Overhauling the previous arm design.
+![Distal Arm Assembly!]({{ '/images/distalAssem.png' | relative_url }}){:.img-fluid}
+![Front View of Gearbox Model]({{ '/images/cycloFront.png' | relative_url }}){:.img-fluid}
+
+[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/robot_armV2/){: .btn .btn--primary .btn--custom }
+
+Designing a breakout board for my desktop CNC.
+![Electrical Schematic]({{ '/images/breakoutSchematic.png' | relative_url }}){:.img-fluid}
+
+[See More About This Project](https://mangohead12.github.io/PatrickFPortfolio/projects/MassoBreakoutBoard/){: .btn .btn--primary .btn--custom }
+
 ## Robot Arm
 
 This was my senior design project with five other students with the goal of developing a cross functional robotic arm to create mixed drinks to order within a 10 week period. I led the mechanical design,  fabrication, and electronics planning throughout the project.
