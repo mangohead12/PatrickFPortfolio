@@ -9,5 +9,6 @@ header:
 teaser: breakoutSchematic.png        # add this too for compatibility
 ---
 
+A little side project to fix the wiring for my desktop CNC. Work in progress!
 
 ![Electrical Schematic]({{ '/images/breakoutSchematic.png' | relative_url }}){:.img-fluid}
