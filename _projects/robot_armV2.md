@@ -9,9 +9,5 @@ header:
 teaser: robot-arm.png        # add this too for compatibility
 ---
 
-![Distal Arm Assembly!]({{ '/images/distalAssem.png' | relative_url }}){:.img-fluid}
-![Front View of Gearbox Model]({{ '/images/cycloFront.png' | relative_url }}){:.img-fluid}
-![Quick Manufacturing Drawings]({{ '/images/eccentricShaftDrawing.png' | relative_url }}){:.img-fluid}
-![Another Engineering Drawing for CNC Service]({{ '/images/cycloDiskDrawing.png' | relative_url }}){:.img-fluid}
 
 ![Alt 1]({{ '/images/distalAssem.png' | relative_url }}) ![Alt 2]({{ '/images/cycloFront.png' | relative_url }}) ![Alt 3]({{ '/images/eccentricShaftDrawing.png' | relative_url }}) ![Alt 3]({{ '/images/eccentricShaftDrawing.png' | relative_url }}) ![Alt 4]({{ '/images/cycloDiskDrawing.png' | relative_url }}) 
